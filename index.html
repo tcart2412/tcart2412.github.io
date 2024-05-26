@@ -1,11 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+    </style>
 </head>
+
 <body>
-    My resume
+    <header>
+        <div class="self">
+            <img src="selfie.jpg" alt="">
+            Hao Siang Hsu
+        </div>
+        <a class="experience" href="#">Experience</a>
+        <a class="project" href="#">Project</a>
+        <a class="achievement" href="#">Achievement</a>
+        <a class="achievement" href="#">Skills</a>
+        <a class="achievement" href="#">Education</a>
+    </header>
+    <main>
+        <div>
+            <h1>Experience</h1>
+            <ul>
+                <li>Research Assistant ‧ National Science and Technology Council ( NSTC )</li>
+                <p style="margin: 0px; font-size: 15px;">2024 / 5 / 1 - 2024 / 6 / 30</p>
+                <p>
+                    erjierer
+                </p>
+            </ul>
+        </div>
+        <div>
+            <h1>Projects</h1>
+            <ul>
+                <li>AI Models Detecting Brain Tumor</li>
+                <p>For implementing semantic segmentation in image segmentation, using the Brats2020 image dataset to
+                    train a 3D U-Net model, this model can segment lesion areas in multi-modal MRI brain images. The
+                    lesion areas include Non-enhancing Tumor (Net), Peritumoral Edema (ED), and Enhanced Tumor (ET)
+                    regions. By utilizing these segmented areas, the entire tumor and tumor core regions can be
+                    identified.
+                </p>
+                <div style="text-align: right;">Github : <a href="https://github.com/tcart2412">https://github.com/tcart2412</a></div>
+                <li>Frontend / Backend Shopping Website</li>
+                <p>In this project, I gradually familiarized myself with the operation mode of Node.js with the
+                    Express.js framework, including the concepts of client-server architecture, middleware functions, and
+                    Express routing. I also utilized third-party middleware to handle communication with the MySQL
+                    database and used EJS as the template engine for rendering the frontend pages.<br>
+                    On this website, users can browse and purchase items, add them to their shopping cart, and proceed
+                    to checkout. Registered administrators have access to the website's backend where they can adjust
+                    product attributes (such as price, name, and description) and perform CRUD operations on products.
+                </p>
+                <div style="text-align: right;">Github : <a href="https://github.com/tcart2412">https://github.com/tcart2412</a></div>
+                <li>Event Manager App</li>
+                <p>
+                    Using SQLite Database and Java Languag
+                </p>
+                <li>Internet Café Ordering System</li>
+            </ul>
+        </div>
+        <div>
+            <h1>Education</h1>
+            <div style="display: flex; align-items: center;">
+                <img src="school.png" alt="" style="width: 100px;">
+                <p>National Taichung University of Science and Technology</p>
+            </div>
+        </div>
+        <div>
+            <h1>Achievement</h1>
+            <ul>
+                <li>FC2024 Singapore Conference</li>
+                <p>apple if you eant</p>
+                <li>iThome Technical Article Contributor</li>
+                <p>apple if you eant</p>
+            </ul>
+        </div>
+        <div>
+            <h1>Skills</h1>
+            <div style="display: flex;">
+                <div>
+                    <ul style="font-size: 20px;">
+                        <li>Python /Java / C / C++ / C#</li>
+                        <li>HTML / JS / CSS / Node.js</li>
+                        <li>SQL / MySQL / SQLite</li>
+                        <li>Computer Vision</li>
+                        <li>Edge Computing</li>
+                        <li>ML / DL</li>
+                        <li>PHP</li>
+                        <li>Git</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul style="font-size: 20px;">
+                        <li>Chinese : Native</li>
+                        <li>English : TOEIC 795 (2024)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
+
 </html>
